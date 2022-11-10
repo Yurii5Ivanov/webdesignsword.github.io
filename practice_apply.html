@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Brooklyn</h1>
+      <nav>
+        <a href="/home.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/process.html">Process</a>
+        <a href="/portfolio.html">Portfolio</a>
+        <a href="/blog.html">Blog</a>
+        <a href="/services.html">Services</a>
+        <a href="/contact.html">Contanct</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Application form</h2>
+      <form action="#" method="get" enctype="multipart/form-data"></form>
+      <div>
+        <p>
+          Name
+          <input
+            type="text"
+            name="username"
+            id="userid1"
+            placeholder="your name"
+          />
+        </p>
+      </div>
+      <div>
+        <p>
+          Last name
+          <input
+            type="text"
+            name="userlastname"
+            id="userid2"
+            placeholder="your last name"
+          />
+        </p>
+      </div>
+      <div>
+        <p>
+          Your age
+          <select name="age">
+            <option value="young">18-25</option>
+            <option value="teenager">26-35</option>
+            <option value="adult">36-45</option>
+            <option value="old">46-60</option>
+          </select>
+        </p>
+      </div>
+      <div>
+        <p>
+          Email
+          <input
+            type="text"
+            name="useremail"
+            id="userid3"
+            placeholder="your email"
+          />
+        </p>
+      </div>
+      <div>
+        <p>
+          Phone
+          <input type="text" name="userphone" id="userid4" placeholder="+380" />
+        </p>
+      </div>
+      <div>
+        <h3>How did you get about me?</h3>
+        <p>
+          <input type="radio" name="usertype" value="facebook" id="" />Facebook
+        </p>
+        <p>
+          <input
+            type="radio"
+            name="usertype"
+            value="instagram"
+            id=""
+          />Instagram
+        </p>
+        <p><input type="radio" name="usertype" value="television" id="" />TV</p>
+        <p>
+          <input
+            type="radio"
+            name="usertype"
+            value="newspaper"
+            id=""
+          />Newspapers
+        </p>
+      </div>
+      <div>
+        <h3>Notification</h3>
+        <p><input type="checkbox" name="notify" value="email" />Email</p>
+        <p><input type="checkbox" name="notify" value="sms" />Phone</p>
+        <p><input type="checkbox" name="nofity" value="dnd" />Don't disturb</p>
+      </div>
+      <div>
+        <textarea
+          name="text"
+          cols="20"
+          rows="10"
+          placeholder="Fill the additional information"
+        ></textarea>
+      </div>
+      <div>
+        <p>
+          <button type="submit">Send</button>
+          <button type="reset">Reset</button>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
